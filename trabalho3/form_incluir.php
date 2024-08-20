@@ -84,7 +84,7 @@
     <input type="number" id="numPokedex" name="numPokedex" required><br><br>
     
     <label for="nome">Nome:</label><br>
-    <input type="text" id="nome" name="nome" required><br><br>
+    <input type="text" id="nome" name="nome" required pattern="[A-Za-zÀ-ÿ\s]+" title="O nome deve conter apenas letras e espaços."><br><br>
     
     <label for="altura">Altura (em metros):</label><br>
     <input type="number" id="altura" name="altura" step="0.01" required><br><br>
